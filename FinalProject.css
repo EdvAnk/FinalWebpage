@@ -1,0 +1,114 @@
+.navbar { 
+    background: black;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    font-style: italic;
+    font-size: 1.3em;
+    line-height: 170%;
+    list-style-type: none;
+    position: fixed;
+    overflow: auto;
+    width: 240px;
+    height: 100vh;
+    padding: 0px;
+}
+
+.navbar li{
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+}
+
+#home {
+padding-bottom: 20px;
+}
+
+.categories li{
+    margin: 0px 0px 20px 20px
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#NavTitle {
+    margin-left: 10%;
+    font-size: 2em;
+}
+
+
+.Grid {
+    display: grid;
+    margin-left: 240px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(20,100px);
+    gap: 0px;
+    height: 100vh;
+    background-color: rgb(255, 210, 0);
+  }
+
+#title {
+    grid-column: 1/ 6;
+    grid-row: 1/ 6;
+    font-size: 4em;
+    font: bold;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url(https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/10_thermal_raceway_2020_track_cars_stationary_front_0.jpg?itok=c503dDK0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+#welcome {
+    font-size: 2.4em;
+    grid-row: 6/ 7;
+    grid-column: 1/ 6;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 210, 0);
+}
+
+#Intro{
+    grid-column: 1/ 6;
+    grid-row: 7/ 8;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+#widget{
+    grid-column: 1/ 6;
+    grid-row: 8/ 15;
+    padding: 0px 50px 0px 50px;
+    background-color: rgb(255, 210, 0);
+}
+
+
+#Author{
+    grid-column: 1/ 6;
+    grid-row: 15/ 16;
+    padding-left: 50px;
+    font-size: 20px;
+    background-color: rgb(255, 210, 0);
+}
+
+#instagram{
+    grid-column: 1/ 2;
+    grid-row: 15/ 16;
+    margin-top: 50px;;
+}
+
+#instagram img{
+    width:50px;
+    margin-left: 50px;
+}

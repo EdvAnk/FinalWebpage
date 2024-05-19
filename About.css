@@ -1,0 +1,88 @@
+.navbar { 
+    background: black;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    font-style: italic;
+    font-size: 1.3em;
+    line-height: 170%;
+    list-style-type: none;
+    position: fixed;
+    overflow: auto;
+    width: 240px;
+    height: 100vh;
+    padding: 0px;
+}
+
+.navbar li{
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+}
+
+#home {
+padding-bottom: 20px;
+}
+
+.categories li{
+    margin: 0px 0px 20px 20px
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#NavTitle {
+    margin-left: 10%;
+    font-size: 2em;
+}
+
+
+.Grid {
+    display: grid;
+    margin-left: 240px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,200px);
+    gap: 0px;
+    height: 100vh;
+    background-color: rgb(255, 210, 0);
+  }
+
+#title {
+    grid-column: 1/ 6;
+    grid-row: 1/ 2;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+#About{
+    grid-column: 1/ 6;
+    grid-row: 2/ 3;
+    background-color: black;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    align-items: center;
+}
+
+#Author{
+    grid-column: 1/ 6;
+    grid-row: 3/ 4;
+    padding-left: 50px;
+    font-size: 20px;
+    background-color: rgb(255, 210, 0);
+}
+
+#instagram{
+    grid-column: 1/ 2;
+    grid-row: 3/ 4;
+    margin-top: 50px;;
+}
+
+#instagram img{
+    width:50px;
+    margin-left: 50px;
+}
